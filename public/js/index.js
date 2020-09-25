@@ -15,20 +15,20 @@ if (loginForm) {
     e.preventDefault();
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-    console.log(email, password);
+    // console.log(email, password);
     login(email, password);
   });
 }
 
 if (signUpForm) {
-  console.log('within signup');
+  // console.log('within signup');
   signUpForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const email = document.getElementById('email').value;
     const name = document.getElementById('name').value;
     const password = document.getElementById('password').value;
     const passwordConfirm = document.getElementById('passwordConfirm').value;
-    console.log(email, name, password, passwordConfirm);
+    // console.log(email, name, password, passwordConfirm);
     signUp(email,name, password,passwordConfirm);
   });
 }
@@ -38,7 +38,7 @@ if (logOutBtn) {
 }
 
 if (userDataForm) {
-  console.log('within userdataform');
+  // console.log('within userdataform');
   userDataForm.addEventListener('submit', (e) => {
     e.preventDefault();
     const email = document.getElementById('email').value;

@@ -4,7 +4,7 @@ import { showAlert } from './alert';
 
 export const signUp = async (email, name, password, passwordConfirm) => {
   try {
-    console.log(email, name, password, passwordConfirm);
+    // console.log(email, name, password, passwordConfirm);
     const Response = await fetch('/api/v1/users/signup', {
       method: 'POST',
       headers: {
@@ -33,9 +33,9 @@ export const logout = async () => {
   try {
     const Response = await fetch('/api/v1/users/logout');
     const res = await Response.json();
-    console.log(res);
+    // console.log(res);
     if (res.status === 'success') {
-      console.log(currentLocation);
+      // console.log(currentLocation);
       location.reload(true);
       if (res.status === 'fail') {
         throw res;

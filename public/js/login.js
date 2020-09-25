@@ -32,9 +32,9 @@ export const logout = async () => {
   try {
     const Response = await fetch('/api/v1/users/logout');
     const res = await Response.json();
-    console.log(res);
+    // console.log(res);
     if (res.status === 'success') {
-      console.log(currentLocation);
+      // console.log(currentLocation);
       location.reload(true);
       if (res.status === 'fail') {
         throw res;

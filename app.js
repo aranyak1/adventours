@@ -14,6 +14,7 @@ const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
 const reviewRouter = require('./routes/reviewRoutes');
 const viewRouter = require('./routes/viewRoutes');
+const compression = require('compression');
 
 //express is a fn here so calling it will add a bunch of methods to app
 const app = express();
@@ -64,6 +65,8 @@ app.use(hpp());
 if (process.env.NODE_ENV !== 'production') {
   app.use(morgan('dev'));
 }
+
+app.use(compression());
 
 app.use((req, res, next) => {
   console.log(' hello from middleware ');
