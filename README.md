@@ -1,5 +1,4 @@
 # Adventours
-<a href="https://adventours1.herokuapp.com" target="_blank">https://adventours1.herokuapp.com/</a>
 
 Live Demo : <a href="https://adventours1.herokuapp.com" target="_blank">https://adventours1.herokuapp.com/</a>
 
