@@ -463,6 +463,11 @@ body {
   flex: 0 0 50%;
 }
 
+.description-box
+{
+  width: 40vw;
+}
+
 .description-box .description {
   margin-right: 5rem;
 }
