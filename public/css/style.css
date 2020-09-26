@@ -466,6 +466,7 @@ body {
 .description-box
 {
   width: 40vw;
+  margin-left: 4rem;
 }
 
 .description-box .description {
