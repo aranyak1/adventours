@@ -1,6 +1,7 @@
 # Adventours
+<a href="https://adventours1.herokuapp.com" target="_blank">https://adventours1.herokuapp.com/</a>
 
-Live Demo : [https://adventours1.herokuapp.com/](https://adventours1.herokuapp.com/){target="_blank"}
+Live Demo : <a href="https://adventours1.herokuapp.com" target="_blank">https://adventours1.herokuapp.com/</a>
 
 ### Adventours is a server rendered touring website with features like signup, login, data updation , reviews  ,authentication  ,authorization(user roles)  etc. 
 
